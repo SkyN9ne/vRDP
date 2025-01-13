@@ -1473,6 +1473,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "windows-implement"
+version = "0.59.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "83577b051e2f49a058c308f17f273b570a6a758386fc291b5f6a934dd84e48c1"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "windows-interface"
 version = "0.52.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1824,7 +1835,7 @@ dependencies = [
  "once_cell",
  "windows 0.56.0",
  "windows-core 0.56.0",
- "windows-implement 0.56.0",
+ "windows-implement 0.59.0",
  "windows-interface 0.56.0",
  "winit 0.30.0",
 ]
